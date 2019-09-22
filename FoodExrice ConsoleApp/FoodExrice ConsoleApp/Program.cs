@@ -11,8 +11,8 @@ namespace FoodExrice_ConsoleApp
         static void Main(string[] args)
         {
             GetterAndPoster gap = new GetterAndPoster();
-            //gap.ReadAllFood();
-            gap.AddFood();
+            //gap.AddFood();
+            gap.ReadAllFood();
         }
     }
 }
